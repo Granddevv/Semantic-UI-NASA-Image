@@ -11,7 +11,7 @@ class DateItem extends Component {
         return (
             <ItemContainer onClick={() => this.props.onClick(this.props.index)}>
                 <span>{this.props.text}</span>
-                <i className="times icon" onClick={()=> this.props.onClose(this.props.index)} />
+                <i className="times icon" onClick={()=> this.props.onClose(this.props.index)} style={{fontSize: '1.28em'}} />
             </ItemContainer>
         )
     }
