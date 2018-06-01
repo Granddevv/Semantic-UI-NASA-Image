@@ -53,7 +53,7 @@ export class DatePicker extends Component {
                     <MultipleDatePicker onSubmit={dates => this.onSubmitDate(dates)} />
                 </DatePickerWrraper>
                 <DatesContainer>
-                        <span style={{fontSize: '18px !important;', marginRight: '5px;'}}> Dates:</span>
+                        <span style={{fontSize: '18px !important', marginRight: '5px'}}> Dates:</span>
                         {
                             this.state.dateArray.map((item, index) => {
                                 return (

@@ -1,5 +1,5 @@
 export default {
     success: false,
-    imageData: [],
+    imageData: {},
     process: false
 }
