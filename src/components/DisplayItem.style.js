@@ -23,3 +23,10 @@ export const ImageTitle = styled.div`
     }
     
 `;
+
+export const ErrorWidget = styled.div`
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+    font-size: 18px;
+`;
